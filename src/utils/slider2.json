@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Starbucks",
+        "price": "39,043,000",
+        "detail": "Elevating coffee culture worldwide with a diverse .",
+        "image": "./r1.png",
+        "pdf": "public/Aayush_resume.pdf"
+    },
+    {
+        "name": "McDonald's",
+        "price": "66,353,000",
+        "detail": "Serving joy with iconic burgers, fries, and a globally b.",
+        "image": "./r2.png",
+        "pdf": "/path/to/starbucks.pdf"
+    },
+    {
+        "name": "Haldirams",
+        "price": "34,853,000",
+        "detail": "Celebrating the richness of Indian sweets p.",
+        "image": "./r3.png",
+        "pdf": "/path/to/starbucks.pdf"
+    },
+    {
+        "name": "Barista",
+        "price": "27,043,000",
+        "detail": "Elevating coffee culture worldwide with a diverse rangeeverages.",
+        "image": "./r4.png",
+        "pdf": "/path/to/starbucks.pdf"
+    },
+    {
+        "name": "Dominos",
+        "price": "45,853,000",
+        "detail": "Delivering pizza happiness with a commitmime.",
+        "image": "./r5.png",
+        "pdf": "/path/to/starbucks.pdf"
+    },
+    {
+        "name": "Burger King",
+        "price": "35,353,000",
+        "detail": "Serving joy with iconic burgers, fries, and a globally beloved menu.",
+        "image": "./r6.png",
+        "pdf": "/path/to/starbucks.pdf"
+    },
+    {
+        "name": "Pizza Hut",
+        "price": "31,853,000",
+        "detail": "Delivering pizza happiness with a commitment to speed, quality, and innovation, one slice at a time.",
+        "image": "./r7.png",
+        "pdf": "/path/to/starbucks.pdf"
+    }
+]
