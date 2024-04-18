@@ -9,7 +9,7 @@ const GetStarted = () => {
         <div id="get-started" className="g-wrapper">
             <div className="paddings innerWidth g-container">
                 <div className="flexColCenter inner-container">
-                    <span className="primaryText">Hire Me</span>
+                    <span className="primaryText">Contact</span>
                     <span className="secondaryText">
                         Contact for hiring or if you want to collaborate for any project
                         <br />

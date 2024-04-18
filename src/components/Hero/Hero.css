@@ -69,7 +69,7 @@
 
 .image-container {
     width: 30rem;
-    height: 35rem;
+    height: 30rem;
     overflow: hidden;
     border-radius: 15rem 15rem 15rem 15rem;
     border: 8px solid rgba(255, 255, 255, 0.12);
@@ -120,7 +120,7 @@
     }
 
     .image-container {
-        width: 85%;
+        width: 75%;
         height: 75%;
     }
 
