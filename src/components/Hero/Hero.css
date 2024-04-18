@@ -67,7 +67,6 @@
 }
 
 
-
 .image-container {
     width: 30rem;
     height: 35rem;
@@ -79,4 +78,66 @@
 .image-container>img {
     width: 100%;
     height: 100%;
+}
+
+.secondaryText {
+    font-size: 1rem;
+    /* Adjust as needed */
+}
+
+/* Base styles for all screens */
+
+/* Styles for screens smaller than 768px (mobile devices) */
+@media only screen and (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        /* Reverse order for image on top */
+        align-items: center;
+        /* Center elements horizontally */
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        /* Make left and right sections full width */
+        gap: 2rem;
+        /* Adjust spacing for better layout */
+    }
+
+    .hero-title {
+        text-align: center;
+        /* Center title text on mobile */
+    }
+
+    .hero-title>h1 {
+        font-size: 2.5rem;
+        /* Reduce font size for mobile */
+    }
+
+    .orange-circle {
+        display: none;
+        /* Hide orange circle on mobile for cleaner layout */
+    }
+
+    .image-container {
+        width: 85%;
+        height: 75%;
+    }
+
+    .flexhero-des {
+        margin-top: 1rem;
+        /* Add margin to type animation on mobile */
+    }
+
+    .stats {
+        flex-direction: column;
+        /* Stack stats vertically on mobile */
+        margin-top: 2rem;
+        /* Add some margin between content and stats on mobile */
+    }
+
+    .stat {
+        margin-bottom: 1rem;
+        /* Add some margin between stats on mobile */
+    }
 }

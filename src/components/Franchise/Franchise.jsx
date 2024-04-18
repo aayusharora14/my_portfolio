@@ -11,7 +11,7 @@ const Franchise = () => {
             <div className="paddings innerWidth f-container">
                 <div className="flexColStart r-head">
                     <span className="orangeText">Certifications</span>
-                    <span className="primaryText">Open Popular Franchise</span>
+                    <span className="primaryText">Credentials of Excellence</span>
                 </div>
                 <Swiper {...sliderSettings}>
                     <SlideNextButton />
@@ -22,7 +22,7 @@ const Franchise = () => {
                                 <img src={card.image} alt="home" className="imagecard" />
 
                                 <span className="secondaryText r-price">
-                                    <span style={{ color: "orange" }}>₹</span>
+                                    <span style={{ color: "orange" }}></span>
                                     <span>{card.price}</span>
                                 </span>
                                 <span className="primaryText">{card.name}</span>

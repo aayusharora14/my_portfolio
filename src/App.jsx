@@ -6,7 +6,6 @@ import Residencies from "./components/Residencies/Residencies";
 import Franchise from "./components/Franchise/Franchise";
 import Value from './components/Value/Value';
 import Contact from './components/Contact/Contact'
-
 import GetStarted from "./components/GetStarted/GetStarted";
 import Footer from "./components/Footer/Footer";
 import Loading from "./components/Loading/Loading";
@@ -35,6 +34,7 @@ function App() {
           <GetStarted />
           <Contact />
           <Footer />
+
         </>
       )}
     </div>

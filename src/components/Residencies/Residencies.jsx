@@ -10,8 +10,8 @@ const Residencies = () => {
         <div id="residencies" className="r-wrapper">
             <div className="paddings innerWidth r-container">
                 <div className="flexColStart r-head">
-                    <span className="orangeText">Projects</span>
-                    <span className="primaryText">Popular Properties</span>
+                    <span className="orangeText">Transforming Concepts into <br></br> Results</span>
+                    <span className="primaryText">Projects Gallery</span>
                 </div>
                 <Swiper {...sliderSettings}>
                     <SlideNextButton />
@@ -21,9 +21,9 @@ const Residencies = () => {
                             <div className="flexColStart r-card">
                                 <img src={card.image} alt="home" />
 
-                                <span className="secondaryText r-price">
-                                    <span style={{ color: "orange" }}>₹</span>
-                                    <span>{card.price}</span>
+                                <span className=" r-price">
+                                    <span style={{ color: "orange", fontSize: "14px" }}>Tech Stack:</span>
+                                    <span className="tech-stack">{card.price}</span>
                                 </span>
                                 <span className="primaryText">{card.name}</span>
                                 <span className="secondaryText">{card.detail}</span>
@@ -34,7 +34,7 @@ const Residencies = () => {
                                         <button className="r2-button">{card.button1Text}</button>
                                     </a>
                                     <a href={card.button2Link}>
-                                        <button className="r2-button">{card.button2Text}</button>
+                                        <button className="r3-button">{card.button2Text}</button>
                                     </a>
                                 </div>
                             </div>

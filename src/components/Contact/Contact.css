@@ -1,7 +1,7 @@
 /* Contact.css */
 .contact-wrapper {
-    background-color: rgba(19, 19, 19, 0.715);
-    padding: 4rem 0;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 0;
 }
 
 .contact-container {
@@ -18,7 +18,8 @@
 }
 
 .contact-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin: 2%;
     font-weight: bold;
     color: orange;
     margin-bottom: 1rem;
@@ -27,7 +28,7 @@
 .contact-options {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .contact-option {
@@ -44,7 +45,7 @@
 }
 
 .contact-icon {
-    width: 50px;
+    width: 55px;
     height: 50px;
     margin-bottom: 0.5rem;
 }
@@ -61,4 +62,40 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: auto;
+}
+
+/* Contact.css */
+
+/* Keep your existing styles */
+
+/* Adjustments for less wide screens */
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-content {
+        margin-bottom: 1rem;
+    }
+
+    .contact-option {
+        width: 45%;
+        /* Adjust the width of contact options */
+    }
+
+    .contact-icon {
+        width: 40px;
+        /* Adjust the size of contact icons */
+        height: auto;
+    }
+
+    .conta-image {
+        margin-top: 1rem;
+    }
+
+    .conta-image img {
+        width: 200px;
+        /* Adjust the size of the contact image */
+    }
 }

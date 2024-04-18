@@ -1,4 +1,4 @@
-.v-container .image-container {
+.image-container {
     border: 8px solid rgb(232 232 232 / 93%);
 
     /* Make the image round */
@@ -69,4 +69,20 @@
 
 .accordionButton .primaryText {
     font-size: 1.1rem;
+}
+
+/* Base styles for all screens */
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .v-left {
+        display: none;
+        /* Hide image container on mobile */
+    }
+}
+
+.v-imagecontainer img {
+    width: 50%;
+    /* Reduce image width to 70% */
+    height: auto;
+    /* Maintain aspect ratio */
 }

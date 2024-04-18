@@ -1,14 +1,17 @@
 .f-container {
     justify-content: space-between;
+    background-color: black
 }
 
 .f-left {
-    gap: 1rem;
+    margin-right: 2%;
+
 }
 
+
+
 .f-menu {
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+
     font-weight: 500;
 }
 

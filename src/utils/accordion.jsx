@@ -1,17 +1,36 @@
-import { HiShieldCheck } from "react-icons/hi";
-import { MdCancel, MdAnalytics } from "react-icons/md";
+
+import { MdAnalytics, MdShield } from "react-icons/md";
 const data = [
   {
-    icon: <HiShieldCheck />,
-    heading: "Bachelors in Computer Science Engineering",
+    icon: <MdShield />,
+    heading: "Bachelors in Engineering",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      <div>
+        FROM: Manipal University Jaipur<br>
+        </br>
+        YEAR: 2021 - 2025
+        <br></br>
+        STREAM: Computer Science & Engineering
+        <br></br>
+
+        📍Jaipur, Rajasthan, India
+
+      </div>
   },
   {
-    icon: <MdCancel />,
-    heading: "10th | 12th",
+    icon: <MdAnalytics />,
+    heading: " Secondary Education",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      <div>
+        FROM: Swami Vivekananda Public School
+        <br></br>
+        YEAR: 2012 - 2021
+        <br></br>
+        10th Marks: 84% &nbsp; 12th Marks: 78%
+        <br></br>
+
+        📍Yamunanagar, Haryana, India
+      </div>
   },
 
 ];

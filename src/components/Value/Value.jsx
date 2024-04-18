@@ -23,7 +23,7 @@ const Value = () => {
                 {/* left side */}
                 <div className="v-left">
                     <div className="imagecontainer">
-                        <img src="./Untitled_Project_V2.gif" alt="" width="420px" height="420px" className="" />
+                        <img src="./about-me.gif" alt="" width="300px" height="300px" className="" />
                     </div>
                 </div>
 
@@ -34,15 +34,10 @@ const Value = () => {
                     <span className="primaryText">A Small Peek Into My Journey</span>
 
                     <span className="secondaryText">
-                        I am a proactive Computer Science student at Manipal University with a strong foundation in programming languages like C, JavaScript, React, Python, and Java. My practical experiences include a MERN Stack training program, contributing to many projects.
-                        <br></br>
-                        My projects not only showcase my technical proficiency but also reflects my keen interest in the finance & IT sector and my ability to leverage technology for innovative solutions.
 
-                        Beyond my academic and professional pursuits, I actively participate in hackathons.
 
-                        <br>
-                        </br>
-                        I am eager to bring my skills, passion, and proactive mindset to contribute to challenging projects and foster a collaborative work environment.
+
+                        "Proactive Computer Science student at Manipal University with a strong foundation in C, JavaScript, React, Python, and Java. Completed MERN Stack training and contributed to multiple projects showcasing technical prowess and innovative solutions in finance & IT. Active participant in hackathons, eager to contribute skills, passion, and focused mindset to challenging projects and foster collaboration."
                     </span>
 
                     <Accordion
@@ -87,5 +82,4 @@ const Value = () => {
         </section>
     );
 };
-
 export default Value;

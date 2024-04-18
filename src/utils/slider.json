@@ -1,62 +1,72 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "77,043,000",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png",
+    "name": "Campus Job Portal",
+    "price": "Reactjs, Javascript, Nodejs, Mongodb",
+    "detail": "A job portal for campus placements streamlining the recruitment process for both applicants and recruiters.",
+    "image": "./f1jobportal.png",
     "button1Text": "Code",
-    "button1Link": "https://www.google.com/",
+    "button1Link": "https://github.com/aayusharora14/Campus-Job_Portal",
     "button2Text": "Demo",
-    "button2Link": "https://example.com/button2"
+    "button2Link": "https://drive.google.com/file/d/1PY8Zu8bgjtBNQ3jZXlHtAxOHxPovfhZq/view?usp=sharing"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353,000",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png",
+    "name": "Youtube Clone",
+    "price": "Reactjs, Javascript, Nodejs, Mongodb",
+    "detail": "YouTube replica with features like video upload, watch history, user authentication via Google, enhancing user experience.",
+    "image": "./f1youtube.png",
     "button1Text": "Code",
-    "button1Link": "https://example.com/button1",
+    "button1Link": "https://github.com/aayusharora14/youtubeclone1.0",
     "button2Text": "Demo",
-    "button2Link": "https://example.com/button2"
+    "button2Link": "https://drive.google.com/file/d/1161DVTbuYMMxLJr6YZxA-MeKfyD1y_ZF/view?usp=sharing"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "55,505,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png",
+    "name": "CarCare: Ecommerce",
+    "price": "HTML, CSS, Javascript, PHP, SQL",
+    "detail": "E-commerce platform for automotive products, integrated with emergency services & remote maintenance solutions.",
+    "image": "./f3carcare.png",
     "button1Text": "Code",
-    "button1Link": "https://example.com/button1",
+    "button1Link": "https://github.com/aayusharora14/Online-Car-Accessories-Ecommerce-Service-provider",
     "button2Text": "Demo",
-    "button2Link": "https://example.com/button2"
+    "button2Link": "https://drive.google.com/file/d/1GDp3jkYLjSysvUbgLRwzad6gOjZD3JWt/view?usp=sharing"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "40,007,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png",
+    "name": "Emotion Detection",
+    "price": "Python, Machine Learning",
+    "detail": "A live face emotion detection model with 78%+ accuracy useful for applications like marketing etc. ",
+    "image": "./f6face.png",
     "button1Text": "Code",
-    "button1Link": "https://example.com/button1",
+    "button1Link": "https://github.com/aayusharora14/real-time-face-emotion-detection-system",
     "button2Text": "Demo",
-    "button2Link": "https://example.com/button2"
+    "button2Link": "https://drive.google.com/file/d/18eBj0Q8e9UFQFMxC_z_G2ys489AA2wIz/view?usp=sharing"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "45,266,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png",
+    "name": "My Portfolio",
+    "price": "Css, Javascript, Nextjs",
+    "detail": "My Another portfolio website explaining my work,not hosted but available on github as one of my earlier projects. ",
+    "image": "./f4portfolio.png",
     "button1Text": "Code",
-    "button1Link": "https://example.com/button1",
+    "button1Link": "https://github.com/aayusharora14/myportfolio1",
     "button2Text": "Demo",
-    "button2Link": "https://example.com/button2"
+    "button2Link": "https://drive.google.com/file/d/1SZPX1a3fYKu6nRnnKmx59qEE4MvmrkXq/view?usp=sharing"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "39,295,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png",
+    "name": "Investment Website",
+    "price": "HTML, CSS, Javascript",
+    "detail": "Landing Page Frontend only for a investment website where consumers can invest there money through various options.",
+    "image": "./f6invexts.png",
     "button1Text": "Code",
-    "button1Link": "https://example.com/button1",
+    "button1Link": "https://github.com/aayusharora14/Investment-Wesbite-FrontPage_BasicUI",
     "button2Text": "Demo",
-    "button2Link": "https://example.com/button2"
+    "button2Link": "https://drive.google.com/file/d/1oIVscqJbRCAG-IofuWFAgBYdX41XEh7H/view?usp=sharing"
+  },
+  {
+    "name": "Cab Booking Website",
+    "price": "HTML, CSS, Javascript",
+    "detail": "User-centric front-end for a Cab Booking App,featuring multi-day scheduling,real-time face verification,boosting ride safety.",
+    "image": "./f5cab.png",
+    "button1Text": "Code",
+    "button1Link": "https://github.com/aayusharora14/INCODE-HACKATHON-CAB-BOOKING-SYSTEM-WITH-LIVE-DRIVER-FACE-VERIFICATION",
+    "button2Text": "Demo",
+    "button2Link": "https://drive.google.com/file/d/1Q4_SPDD2Z64tPQxSRDkdEEyO_hlT7Zdd/view?usp=sharing"
   }
 ]

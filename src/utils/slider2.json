@@ -1,51 +1,58 @@
 [
     {
-        "name": "Starbucks",
-        "price": "39,043,000",
-        "detail": "Elevating coffee culture worldwide with a diverse .",
+        "name": "NPTEL",
+        "price": "Analysis of Algorithms",
+        "detail": " Cleared national level exam by IIT Madras on completion of course by NPTEL",
         "image": "./r1.png",
-        "pdf": "public/Aayush_resume.pdf"
+        "pdf": "/nptel.pdf"
     },
     {
-        "name": "McDonald's",
-        "price": "66,353,000",
-        "detail": "Serving joy with iconic burgers, fries, and a globally b.",
+        "name": "Google",
+        "price": "Project Management",
+        "detail": "Completed 6 months training progam under google hosted by Coursera",
         "image": "./r2.png",
-        "pdf": "/path/to/starbucks.pdf"
+        "pdf": "/Coursera_Google.pdf"
     },
     {
-        "name": "Haldirams",
-        "price": "34,853,000",
-        "detail": "Celebrating the richness of Indian sweets p.",
-        "image": "./r3.png",
-        "pdf": "/path/to/starbucks.pdf"
+        "name": "IBM",
+        "price": "Javascript",
+        "detail": "Completed the course of Server side javascript with nodejs ",
+        "image": "./r8.png",
+        "pdf": "/nodeja.pdf"
     },
     {
-        "name": "Barista",
-        "price": "27,043,000",
-        "detail": "Elevating coffee culture worldwide with a diverse rangeeverages.",
-        "image": "./r4.png",
-        "pdf": "/path/to/starbucks.pdf"
-    },
-    {
-        "name": "Dominos",
-        "price": "45,853,000",
-        "detail": "Delivering pizza happiness with a commitmime.",
+        "name": "Oracle",
+        "price": "Database Foundations",
+        "detail": "Successfully completed the course of Database under Oracle Academy",
         "image": "./r5.png",
-        "pdf": "/path/to/starbucks.pdf"
+        "pdf": "/oracle.pdf"
     },
     {
-        "name": "Burger King",
-        "price": "35,353,000",
-        "detail": "Serving joy with iconic burgers, fries, and a globally beloved menu.",
+        "name": "CISCO",
+        "price": "Networking Essentials",
+        "detail": "Achieved student level credentials for Netwrking Course on Cisco Netacad.",
         "image": "./r6.png",
-        "pdf": "/path/to/starbucks.pdf"
+        "pdf": "/cisco.pdf"
     },
     {
-        "name": "Pizza Hut",
-        "price": "31,853,000",
-        "detail": "Delivering pizza happiness with a commitment to speed, quality, and innovation, one slice at a time.",
-        "image": "./r7.png",
-        "pdf": "/path/to/starbucks.pdf"
+        "name": "IBM",
+        "price": "Artifial Intelligence",
+        "detail": "Completed the course of 'Getting Started with Enterprise-grade AI' ",
+        "image": "./r9.png",
+        "pdf": "/ibm.pdf"
+    },
+    {
+        "name": "GDS Club",
+        "price": "App Development",
+        "detail": "Completed the course of app development with 17 badges from Google",
+        "image": "./r3.png",
+        "pdf": "/r3.png"
+    },
+    {
+        "name": "Walmart",
+        "price": "Sparkathon",
+        "detail": "Certficate of Appreciation for successful project submission in hackathon.",
+        "image": "./r4.png",
+        "pdf": "/sparkathon.pdf"
     }
 ]

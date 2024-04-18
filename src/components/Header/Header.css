@@ -32,9 +32,77 @@
 }
 
 /* Media Query for responsiveness */
+/* Add this CSS for hamburger menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--secondary);
+    margin: 3px 0;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-items.show {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background: var(--black);
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem 0;
+}
+
+/* Media Query for responsiveness */
 @media (max-width: 768px) {
-    .h-container {
+    .hamburger {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .h-menu {
         flex-direction: column;
         align-items: center;
     }
+
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        padding: auto;
+        align-items: center;
+        background: var(--black);
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 1rem 0;
+    }
+
+    .menu-items a {
+        padding: 10px 0;
+        color: rgb(255, 245, 232);
+        transition: color 0.3s ease;
+    }
+
+    .menu-items a:hover {
+        color: #fff;
+        /* Change color on hover */
+        text-decoration: underline;
+        /* Optional: Add underline on hover */
+    }
+
+
 }
