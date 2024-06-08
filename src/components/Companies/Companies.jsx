@@ -24,6 +24,10 @@ const Companies = () => {
                     <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" />
                     <span>HTML</span>
                 </div>
+                 <div className="company-item">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" />
+                    <span>CSS</span>
+                </div>
                 <div className="company-item">
                     <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
                     <span>JavaScript</span>
@@ -40,10 +44,7 @@ const Companies = () => {
                     <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" />
                     <span>React</span>
                 </div>
-                <div className="company-item">
-                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" />
-                    <span>CSS</span>
-                </div>
+               
             </div>
         </section>
     );
