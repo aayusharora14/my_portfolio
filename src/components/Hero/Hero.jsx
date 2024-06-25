@@ -38,7 +38,7 @@ const Hero = () => {
                                 "Software Engineer",
                                 1000,
 
-                                "Web Developer",
+                                "Frontend Developer",
                                 1000,
                                 "MERN Stack Developer",
                                 1000,
@@ -89,7 +89,7 @@ const Hero = () => {
                         }}
                         className="image-container"
                     >
-                        <img src="./hero-image.jpeg" alt="houses" />
+                        <img src="./hi.jpeg" alt="houses" />
                     </motion.div>
                 </div>
             </div>
