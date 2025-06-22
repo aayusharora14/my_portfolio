@@ -8,28 +8,35 @@
     margin-bottom: 2rem;
 }
 
-.r-card>img {
-    width: 100%;
-    max-width: 17rem;
-
-    border: 1.5px solid #bfc8c9;
-    /* Add grey border */
-    border-radius: 10px;
-    /* Optional: Add border radius */
-}
-
-
+/* Card container */
 .r-card {
-    gap: 0.6rem;
-    padding: 1rem;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px 15px 15px 15px;
-    max-width: max-content;
-    height: 23rem;
-    margin: auto;
-    transition: all 300ms ease-in;
+    border-radius: 15px;
+    padding: 1rem;
     background-color: black;
+    transition: all 300ms ease-in;
+    max-width: 17rem;        /* Ensure card doesn't grow too wide */
+    width: 100%;
+    height: auto;            /* Let card grow with content */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Card image */
+.r-card > img {
+    width: 100%;
+    height: auto;
+    border: 1.5px solid #bfc8c9;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Tech Stack section */
+.r-price {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .tech-stack {
@@ -38,22 +45,22 @@
     font-weight: 100;
 }
 
-
-
-.r-card> :nth-child(2) {
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.r-card> :nth-child(3) {
+/* Title */
+.r-card > :nth-child(3) {
     font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 
-.r-card> :nth-child(4) {
+/* Description */
+.r-card > :nth-child(4) {
     font-size: 0.7rem;
-    width: 15rem;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
 }
 
+/* Hover effect */
 .r-card:hover {
     scale: 1.025;
     cursor: pointer;
@@ -63,10 +70,12 @@
     box-shadow: 0px 72px 49px -51px rgba(0, 0, 0, 0.486);
 }
 
+/* Swiper */
 .swiper-horizontal {
     overflow: visible;
 }
 
+/* Navigation buttons */
 .r-buttons {
     position: absolute;
     gap: 1rem;
@@ -82,7 +91,6 @@
     border-radius: 25px;
     background-color: white;
     cursor: pointer;
-
 }
 
 .r-buttons>:nth-child(1) {
@@ -93,41 +101,30 @@
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
-.r2-button {
-    font-weight: 500;
-    padding: 1.0rem 0.55rem;
-    color: white;
-    background: rgb(28, 142, 130);
-    border: none;
-    border-radius: 100%;
-
-
-
-
-    cursor: pointer;
-
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
-.r2-button:hover {
-    background: black;
-    transform: scale(1.1);
-}
-
+/* Code & Demo buttons */
+.r2-button,
 .r3-button {
     font-weight: 500;
-    padding: 1.0rem 0.43rem;
+    padding: 0.8rem 1.2rem;
     color: white;
     background: rgb(28, 142, 130);
     border: none;
-    border-radius: 100%;
-
-    margin-left: 3.1vw;
-
-
+    border-radius: 50px;
     cursor: pointer;
-
+    transition: transform 0.2s ease;
 }
 
+.r2-button:hover,
 .r3-button:hover {
     background: black;
     transform: scale(1.1);
