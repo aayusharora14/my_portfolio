@@ -7,8 +7,8 @@ import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
     const handleDownloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/Aayush_resume.pdf'; // Replace with the correct path to your PDF file
-        link.download = 'Aayush_resume.pdf';
+        link.href = '/Aayush_Resume_1.pdf'; // Replace with the correct path to your PDF file
+        link.download = 'Aayush_Resume_1.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
