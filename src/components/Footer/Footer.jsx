@@ -11,7 +11,7 @@ const Footer = () => {
 
                 <div className="flexColStart f-right">
 
-                    <span className="secondaryText">The Content on this website was last updated in 04/2024</span>
+                    <span className="secondaryText">The Content on this website was last updated in 01/2025</span>
 
                 </div>
             </div>
