@@ -37,13 +37,13 @@ const Hero = () => {
                             sequence={[
                                 "Frontend Development",
                                 1000,
-                                "MERN Stack Development",
+                                "Data Visualization",
+                                1000,
+                                "API Development",
                                 1000,
                                 "Java Programming",
                                 1000,
                                 "C Programming",
-                                1000,
-                                "Data Visualization",
                                 1000,
                             ]}
                             wrapper="span"
@@ -88,7 +88,7 @@ const Hero = () => {
                         }}
                         className="image-container"
                     >
-                        <img src="./Screenshot-2-1.png" alt="houses" />
+                        <img src="./Screenshot-2-1.png" alt="profile photo" />
                     </motion.div>
                 </div>
             </div>
