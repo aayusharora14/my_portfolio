@@ -35,16 +35,15 @@ const Hero = () => {
                     <div className="flexColStart secondaryText flexhero-des">
                         <TypeAnimation
                             sequence={[
-                                "Software Engineer",
+                                "Frontend Development",
                                 1000,
-
-                                "Frontend Developer",
+                                "MERN Stack Development",
                                 1000,
-                                "MERN Stack Developer",
+                                "Java Programming",
                                 1000,
-                                "Java Programmer",
+                                "C Programming",
                                 1000,
-                                "C Programmer",
+                                "Data Visualization",
                                 1000,
                             ]}
                             wrapper="span"
@@ -89,7 +88,7 @@ const Hero = () => {
                         }}
                         className="image-container"
                     >
-                        <img src="./Screenshot-1.png" alt="houses" />
+                        <img src="./Screenshot-2-1.png" alt="houses" />
                     </motion.div>
                 </div>
             </div>
