@@ -37,7 +37,7 @@ const Value = () => {
 
 
 
-                        "Proactive Computer Science student at Manipal University with a strong foundation in C, JavaScript, React, Python, and Java. Completed MERN Stack training and contributed to multiple projects showcasing technical prowess and innovative solutions in finance & IT. Active participant in hackathons, eager to contribute skills, passion, and focused mindset to challenging projects and foster collaboration."
+                        "Computer Science Engineer from Manipal University with a solid foundation in C, JavaScript, React, Python, Java and SQL, driven by a proactive and solution-oriented mindset. Completed MERN Stack training and contributed to multiple projects showcasing technical prowess and innovative solutions in finance & IT. Active participant in hackathons, eager to contribute skills, passion, and focused mindset to challenging projects and foster collaboration."
                     </span>
 
                     <Accordion
