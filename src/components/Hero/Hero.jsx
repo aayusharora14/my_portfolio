@@ -88,7 +88,7 @@ const Hero = () => {
                         }}
                         className="image-container"
                     >
-                        <img src="./Screenshot-2-1.png" alt="profile photo" />
+                        <img src="./Screenshot-2-1-modified.png" alt="profile photo" />
                     </motion.div>
                 </div>
             </div>
